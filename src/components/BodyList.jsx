@@ -3,6 +3,7 @@ import { formatDate } from "../utils/formatDate";
 import { formatMoneyRealBrazil } from "../utils/formatMoneyRealBrazil";
 
 export default function BodyList({ titulo, setOpenModal, anunciosData }) {
+  console.log(anunciosData);
   return (
     <section className="mt-12 max-w-screen-lg mx-auto px-4 md:px-8">
       <div>
